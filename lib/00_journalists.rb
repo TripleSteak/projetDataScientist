@@ -16,7 +16,7 @@ end
 
 # 4- Combien commencent par une majuscule (première lettre juste après le @) ?
 
-handles.grep(/^@[p{Upper}]/).count #209
+puts handles.grep(/^@[A-Z]/).count #209
 
 # 5- Combien contiennent au moins une majuscule ?
 
